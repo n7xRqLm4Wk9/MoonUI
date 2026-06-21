@@ -1,0 +1,23 @@
+{
+  "name": "Moon",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "Moon": {
+        "$className": "ModuleScript",
+        "$path": "init.lua",
+        "src": {
+          "$path": "src"
+        }
+      }
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "MoonDemo": {
+          "$className": "LocalScript",
+          "$path": "example/demo.client.lua"
+        }
+      }
+    }
+  }
+}
